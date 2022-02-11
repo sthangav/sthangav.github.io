@@ -1,4 +1,4 @@
-#Git Commands
+# Git Commands
   1) Git clone 
       ```sh	
       git clone ssh://git@git.source.akamai.com:7999/~sthangav/ds2-lambda.git
@@ -35,5 +35,13 @@
       ```sh
       git diff HEAD..origin/master
       ```
-           
-   
+ 10) Overview diff 
+      ```sh
+      git log path/a
+      ```
+
+      ```sh
+      git whatchanged
+      ```
+
+  
